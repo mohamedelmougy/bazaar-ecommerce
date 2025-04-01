@@ -3,3 +3,38 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@utility container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  @variant sm {
+    max-width: 475px;
+  }
+
+  @variant md {
+    max-width: 640px;
+  }
+
+  @variant lg {
+    max-width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @variant xl {
+    max-width: 1024px;
+  }
+  @variant 2xl {
+    max-width: 1366px;
+  }
+}
