@@ -1,9 +1,9 @@
-import Slider from "../../components/Home/Slider";
+import Carousel from "../../components/Home/Carousel";
 
 const HomePage = () => {
   return (
     <section>
-      <Slider />
+      <Carousel />
     </section>
   );
 };
