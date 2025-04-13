@@ -3,7 +3,7 @@ import Navbar from "../components/Shared/Navbar";
 
 const RootLayout = () => {
   return (
-    <main className="container">
+    <main>
       <Navbar />
       <Outlet />
     </main>
