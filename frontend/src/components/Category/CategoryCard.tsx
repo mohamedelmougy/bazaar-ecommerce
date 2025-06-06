@@ -1,3 +1,5 @@
+import { cn } from "../../utils";
+
 interface CategoryCardProps {
   title: string;
   img: string;
@@ -9,7 +11,10 @@ const CategoryCard = ({ title, img, background }: CategoryCardProps) => {
     <div className="flex justify-center items-center">
       <div className="flex flex-col items-center justify-center space-y-2.5">
         <div
-          className={`w-[130px] h-[130px] flex items-center justify-center bg-[${background}] rounded-full p-4`}
+          className={cn(
+            `w-[130px] h-[130px] flex items-center justify-center rounded-full p-4`,
+            background
+          )}
         >
           <img src={img} alt={title} width={130} height={130} loading="lazy" />
         </div>

@@ -47,31 +47,31 @@ export const categoriesCard: Category[] = [
   {
     title: "School",
     imgUrl: notebook,
-    background: "#FFD3E8",
+    background: "bg-[#FFD3E8]",
   },
   {
     title: "Kitchen",
     imgUrl: pot,
-    background: "#F4DBA5",
+    background: "bg-[#F4DBA5]",
   },
   {
     title: "Clothes",
     imgUrl: cloth,
-    background: "#55CFDF",
+    background: "bg-[#55CFDF]",
   },
   {
     title: "Makeup",
     imgUrl: makeup,
-    background: "#FF6262",
+    background: "bg-[#FF6262]",
   },
   {
     title: "Watches",
     imgUrl: watch,
-    background: "#a3b5ff",
+    background: "bg-[#a3b5ff]",
   },
   {
     title: "Phones",
     imgUrl: phone,
-    background: "#FFD3E8",
+    background: "bg-[#FFD3E8]",
   },
 ];
