@@ -7,7 +7,7 @@ const MobileNav = ({ isOpen }: { isOpen: boolean }) => {
     <div
       className={
         isOpen
-          ? "fixed sm:hidden top-[64px] left-0 bg-[#212529] h-full w-full flex flex-col px-4 space-y-4 ease-in-out duration-500 z-100"
+          ? "fixed md:hidden top-[64px] left-0 bg-[#212529] h-full w-full flex flex-col px-4 space-y-4 ease-in-out duration-500 z-100"
           : "h-full w-full fixed -top-[100%] left-0 ease-in-out duration-500 z-100"
       }
     >
