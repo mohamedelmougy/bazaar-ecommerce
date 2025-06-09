@@ -1,4 +1,4 @@
-import { categoriesCard } from "../../constants";
+import { categoriesCard } from "@/constants";
 import CategoryCard from "../Category/CategoryCard";
 import SubTitle from "../Shared/SubTitle";
 

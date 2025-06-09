@@ -1,5 +1,3 @@
-
-
 interface SubTitleProps {
   title: string;
   btnTitle?: string;

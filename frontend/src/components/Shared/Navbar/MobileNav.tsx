@@ -1,6 +1,5 @@
+import { cart, user } from "@/assets/icons";
 import SearchNav from "./SearchNav";
-import user from "../../../assets/icons/user.png";
-import cart from "../../../assets/icons/shopping-cart.png";
 
 const MobileNav = ({ isOpen }: { isOpen: boolean }) => {
   return (

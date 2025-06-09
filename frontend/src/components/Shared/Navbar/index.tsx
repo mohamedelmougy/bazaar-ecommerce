@@ -1,12 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SearchNav from "./SearchNav";
-import user from "../../../assets/icons/user.png";
-import cart from "../../../assets/icons/shopping-cart.png";
-import burgerMenu from "../../../assets/icons/burger-menu.svg";
-import closeMenu from "../../../assets/icons/close-menu.svg";
 import MobileNav from "./MobileNav";
-import { logo } from "../../../assets/images";
+import { burgerMenu, cart, closeMenu, user } from "@/assets/icons";
+import { logo } from "@/assets/images";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
