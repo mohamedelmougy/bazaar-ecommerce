@@ -9,5 +9,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), tsconfigPaths()],
   resolve:{
     alias:[{find:"@", replacement:path.resolve("./src")}]
+  },
+  server:{
+    open:true
   }
 });
