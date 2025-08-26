@@ -1,6 +1,6 @@
-import { categoriesCard } from "@/constants";
-import CategoryCard from "../Category/CategoryCard";
-import SubTitle from "../Shared/SubTitle";
+import { categoriesCard } from '@/constants'
+import CategoryCard from '../Category/CategoryCard'
+import SubTitle from '../Shared/SubTitle'
 
 const HomeCategories = () => {
   return (
@@ -8,15 +8,11 @@ const HomeCategories = () => {
       <SubTitle title="Categories" btnTitle="More" />
       <div className="flex items-center justify-between container flex-wrap">
         {categoriesCard?.map((cat) => (
-          <CategoryCard
-            title={cat.title}
-            img={cat.imgUrl}
-            background={cat.background}
-          />
+          <CategoryCard title={cat.title} img={cat.imgUrl} background={cat.background} />
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomeCategories;
+export default HomeCategories

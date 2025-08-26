@@ -1,4 +1,4 @@
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart } from 'lucide-react'
 
 const ProductAddToCartButton = () => {
   return (
@@ -6,7 +6,7 @@ const ProductAddToCartButton = () => {
       <ShoppingCart className="w-4 h-4 group-hover/cart:scale-110 transition-transform duration-200" />
       Add to Cart
     </button>
-  );
-};
+  )
+}
 
-export default ProductAddToCartButton;
+export default ProductAddToCartButton

@@ -1,13 +1,13 @@
-import { cart, user } from "@/assets/icons";
-import SearchNav from "./SearchNav";
+import { cart, user } from '@/assets/icons'
+import SearchNav from './SearchNav'
 
 const MobileNav = ({ isOpen }: { isOpen: boolean }) => {
   return (
     <div
       className={
         isOpen
-          ? "fixed md:hidden top-[64px] left-0 bg-[#212529] h-full w-full flex flex-col px-4 space-y-4 ease-in-out duration-500 z-100"
-          : "h-full w-full fixed -top-[100%] left-0 ease-in-out duration-500 z-100"
+          ? 'fixed md:hidden top-[64px] left-0 bg-[#212529] h-full w-full flex flex-col px-4 space-y-4 ease-in-out duration-500 z-100'
+          : 'h-full w-full fixed -top-[100%] left-0 ease-in-out duration-500 z-100'
       }
     >
       <div className="w-full flex items-center justify-center">
@@ -24,7 +24,7 @@ const MobileNav = ({ isOpen }: { isOpen: boolean }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MobileNav;
+export default MobileNav

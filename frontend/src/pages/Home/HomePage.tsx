@@ -1,6 +1,6 @@
-import Carousel from "@/components/Home/Carousel";
-import HomeCategories from "@/components/Home/HomeCategories";
-import CardProductsContainer from "@/components/Products/CardProductsContainer";
+import Carousel from '@/components/Home/Carousel'
+import HomeCategories from '@/components/Home/HomeCategories'
+import CardProductsContainer from '@/components/Products/CardProductsContainer'
 
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
         <CardProductsContainer />
       </section>
     </>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

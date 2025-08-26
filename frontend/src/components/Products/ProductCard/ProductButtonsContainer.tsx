@@ -1,7 +1,7 @@
-import { ChildrenProps } from "../../../types/global";
+import { ChildrenProps } from '../../../types/global'
 
 const ProductButtonsContainer = ({ children }: ChildrenProps) => {
-  return <div className="flex gap-3 mt-4 px-5 pb-5">{children}</div>;
-};
+  return <div className="flex gap-3 mt-4 px-5 pb-5">{children}</div>
+}
 
-export default ProductButtonsContainer;
+export default ProductButtonsContainer

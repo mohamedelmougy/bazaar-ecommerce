@@ -6,7 +6,7 @@ const SearchNav = () => {
       type="search"
       aria-label="Search"
     />
-  );
-};
+  )
+}
 
-export default SearchNav;
+export default SearchNav

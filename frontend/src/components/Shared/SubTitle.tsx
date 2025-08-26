@@ -1,6 +1,6 @@
 interface SubTitleProps {
-  title: string;
-  btnTitle?: string;
+  title: string
+  btnTitle?: string
 }
 
 const SubTitle = ({ title, btnTitle }: SubTitleProps) => {
@@ -13,7 +13,7 @@ const SubTitle = ({ title, btnTitle }: SubTitleProps) => {
       )}
       <span className="font-bold text-2xl text-[#272727]">{title}</span>
     </div>
-  );
-};
+  )
+}
 
-export default SubTitle;
+export default SubTitle

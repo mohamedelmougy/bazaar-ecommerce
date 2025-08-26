@@ -1,12 +1,12 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import SearchNav from "./SearchNav";
-import MobileNav from "./MobileNav";
-import { burgerMenu, cart, closeMenu, user } from "@/assets/icons";
-import { logo } from "@/assets/images";
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import SearchNav from './SearchNav'
+import MobileNav from './MobileNav'
+import { burgerMenu, cart, closeMenu, user } from '@/assets/icons'
+import { logo } from '@/assets/images'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <header className="bg-[#212529] h-[64px]">
       <nav className="container w-full flex items-center justify-between gap-3">
@@ -29,22 +29,13 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div
-          className="md:hidden p-1 cursor-pointer"
-          onClick={() => setIsOpen((prev) => !prev)}
-        >
-          <img
-            src={isOpen ? closeMenu : burgerMenu}
-            alt="logo"
-            width={42}
-            height={42}
-            role="img"
-          />
+        <div className="md:hidden p-1 cursor-pointer" onClick={() => setIsOpen((prev) => !prev)}>
+          <img src={isOpen ? closeMenu : burgerMenu} alt="logo" width={42} height={42} role="img" />
         </div>
         <MobileNav isOpen={isOpen} />
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
