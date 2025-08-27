@@ -12,4 +12,14 @@ type Category = {
   background: string
 }
 
-export type { Slide, Category }
+interface Brand {
+  name: string
+  imgUrl: string
+}
+
+interface Media {
+  name: string
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>
+}
+
+export type { Slide, Category, Brand, Media }

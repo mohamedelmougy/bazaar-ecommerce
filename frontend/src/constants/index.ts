@@ -1,5 +1,24 @@
-import type { Category, Slide } from './types'
-import { phones, tvs, pots, shampooProducts, notebook, pot, cloth, makeup, watch, phone } from '../assets/images'
+import type { Brand, Category, Media, Slide } from './types'
+import {
+  phones,
+  tvs,
+  pots,
+  shampooProducts,
+  notebook,
+  pot,
+  cloth,
+  makeup,
+  watch,
+  phone,
+  poloLogo,
+  appleLogo,
+  lacosteLogo,
+  samsungLogo,
+  casioLogo,
+  lgLogo,
+  tupperwareLogo,
+} from '../assets/images'
+import { FacebookIcon, InstagramIcon, XIcon } from '@/assets/icons'
 
 export const carouselSlides: Slide[] = [
   {
@@ -63,4 +82,20 @@ export const categoriesCard: Category[] = [
     imgUrl: phone,
     background: 'bg-[#FFD3E8]',
   },
+]
+
+export const brands: Brand[] = [
+  { name: 'Apple', imgUrl: appleLogo },
+  { name: 'Lacoste', imgUrl: lacosteLogo },
+  { name: 'Samsung', imgUrl: samsungLogo },
+  { name: 'Casio', imgUrl: casioLogo },
+  { name: 'LG', imgUrl: lgLogo },
+  { name: 'Polo', imgUrl: poloLogo },
+  { name: 'Tupperware', imgUrl: tupperwareLogo },
+]
+
+export const socialMedia: Media[] = [
+  { name: 'Facebook', icon: FacebookIcon },
+  { name: 'x', icon: XIcon },
+  { name: 'Instagram', icon: InstagramIcon },
 ]
