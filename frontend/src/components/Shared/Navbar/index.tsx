@@ -19,13 +19,13 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex max-lg:min-w-[30%] space-x-7">
-          <div className="flex cursor-pointer">
+          <Link to="login" className="flex cursor-pointer items-center">
             <img src={user} width={30} height={30} alt="user icon" />
-            <button className="text-white ml-1">Login</button>
-          </div>
+            <div className="text-white ml-1 cursor-pointer">Login</div>
+          </Link>
           <div className="flex cursor-pointer">
             <img src={cart} width={30} height={30} alt="cart icon" />
-            <button className="text-white ml-1">Cart</button>
+            <button className="text-white ml-1 cursor-pointer">Cart</button>
           </div>
         </div>
 
