@@ -1,6 +1,6 @@
 import { Star } from 'lucide-react'
 import { useProductCardContext } from '../../../contexts/ProductCardContext'
-import { cn } from '../../../utils'
+import { cn } from '@/lib/utils'
 
 const ProductRating = () => {
   const { product } = useProductCardContext()

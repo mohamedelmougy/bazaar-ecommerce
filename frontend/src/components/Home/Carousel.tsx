@@ -1,7 +1,7 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel as Slider } from 'react-responsive-carousel'
 import { carouselSlides } from '@/constants'
-import { cn } from '@/utils'
+import { cn } from '@/lib/utils'
 
 const Carousel = () => {
   return (
