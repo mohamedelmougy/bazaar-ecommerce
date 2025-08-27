@@ -6,5 +6,4 @@ import FacebookIcon from './facebook'
 import InstagramIcon from './instagram'
 import XIcon from './x'
 
-
 export { user, cart, burgerMenu, closeMenu, FacebookIcon, XIcon, InstagramIcon }
