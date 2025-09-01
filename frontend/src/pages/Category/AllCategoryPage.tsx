@@ -5,7 +5,7 @@ const AllCategoryPage = () => {
   const onPageClick = (selected: number) => {}
   return (
     <>
-      <section className="mt-6">
+      <section className="mt-6 min-h-[85vh]">
         <CategoryContainer />
         <div className="my-10">
           <Pagination pageCount={20} onPageClick={onPageClick} />
