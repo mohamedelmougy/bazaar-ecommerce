@@ -8,7 +8,7 @@ const HomeCategories = () => {
       <SubTitle title="Categories" btnTitle="More" to="/all-category" />
       <div className="flex items-center justify-between container flex-wrap">
         {categoriesCard?.map((cat) => (
-          <CategoryCard title={cat.title} img={cat.imgUrl} background={cat.background} />
+          <CategoryCard key={cat.title} title={cat.title} img={cat.imgUrl} background={cat.background} />
         ))}
       </div>
     </div>
