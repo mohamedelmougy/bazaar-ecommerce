@@ -56,7 +56,7 @@
 @layer components {
   /* carousel */
   .carousel > .thumbs-wrapper {
-    display: none;
+    @apply hidden;
   }
 
   /* pagination */
