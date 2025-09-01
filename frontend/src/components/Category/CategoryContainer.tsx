@@ -7,7 +7,7 @@ const CategoryContainer = () => {
       <h1 className="text-[#555550] font-extrabold text-2xl">All Categories</h1>
       <div className="flex items-center justify-between flex-wrap gap-7">
         {categoriesCard?.map((cat) => (
-          <CategoryCard title={cat.title} img={cat.imgUrl} background={cat.background} />
+          <CategoryCard key={cat.title} title={cat.title} img={cat.imgUrl} background={cat.background} />
         ))}
       </div>
     </div>
