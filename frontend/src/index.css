@@ -58,6 +58,27 @@
   .carousel > .thumbs-wrapper {
     display: none;
   }
+
+  /* pagination */
+  .pagination-container {
+    @apply flex justify-center flex-wrap;
+  }
+
+  .page-item {
+    @apply mx-1.5;
+  }
+
+  .page-link {
+    @apply inline-block px-[15px] py-[10px] bg-white text-[#272727] hover:bg-[#272727] hover:text-white border border-solid border-[#ddd] rounded-[5px] select-none cursor-pointer;
+  }
+
+  .active-item {
+    @apply bg-[#272727] text-white border-[#272727];
+  }
+
+  .disabled-item {
+    @apply cursor-not-allowed opacity-50;
+  }
 }
 
 @theme inline {
