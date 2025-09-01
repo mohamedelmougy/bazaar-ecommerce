@@ -1,14 +1,12 @@
 import { brands } from '@/constants'
-import SubTitle from '../Shared/SubTitle'
 import BrandCard from './BrandCard'
 
-const BrandFeatured = () => {
+const BrandContainer = () => {
   return (
-    <div className="container">
-      <SubTitle title="Brand" btnTitle="More" to='/all-brand' />
-
+    <div className="container w-full space-y-7 min-h-[75vh]">
+      <h1 className="text-[#555550] font-extrabold text-2xl">All Brands</h1>
       <div className=" flex items-center justify-center md:justify-between flex-wrap">
-        {brands.slice(0, 4).map((brand) => (
+        {brands.map((brand) => (
           <BrandCard key={brand.name} src={brand.imgUrl} brandName={brand.name} />
         ))}
       </div>
@@ -16,4 +14,4 @@ const BrandFeatured = () => {
   )
 }
 
-export default BrandFeatured
+export default BrandContainer
