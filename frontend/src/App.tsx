@@ -3,6 +3,7 @@ import HomePage from './pages/Home/HomePage'
 import RootLayout from './layouts/RootLayout'
 import LoginPage from './pages/Auth/LoginPage'
 import RegisterPage from './pages/Auth/RegisterPage'
+import AllCategoryPage from './pages/Category/AllCategoryPage'
 
 function App() {
   const router = createBrowserRouter(
@@ -11,6 +12,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="register" element={<RegisterPage />} />
+        <Route path="all-category" element={<AllCategoryPage />} />
       </Route>,
     ),
   )
